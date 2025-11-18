@@ -21,11 +21,6 @@
 
 /*BODY CLASSES*/
 
-.voluntariado-body{
-    background-image: url(./images/4.png);
-    color: white;
-}
-
 .sobreallcounts-body{
     background-image: url(./images/5.png);
     color: white;
@@ -62,11 +57,10 @@ h5{
     font-family: "Poppins", sans-serif;
     text-decoration: solid;
     color: white;
-    font-size: 25px;
 
 }
 
-.subtitulo2{
+.subtitulo-underline{
     font-family: "Poppins", sans-serif;
     color: white;
     text-decoration: solid; 
@@ -76,6 +70,11 @@ h5{
 .parrafos{
     font-family: "Inter", sans-serif;
     color: white;
+
+}
+.parrafos-black{
+    font-family: "Inter", sans-serif;
+    color: black;
 
 }
 .parrafos-solid{
@@ -107,6 +106,12 @@ h5{
 .nav-subtext{
     font-family: "Questrial", sans-serif;
     color: white;
+    font: x-small;
+}
+
+.subtext{
+    font-family: "Questrial", sans-serif;
+    color: gray;
     font: x-small;
 }
 .copyright{
@@ -520,6 +525,67 @@ li{
 /*Voluntariado Footer*/
 .voluntariado-footer{
     grid-area: vol-footer;
+    border-radius: 10px;
+    background-color: #0f0f0f33;
+    margin: 30px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+/*ALLCOUNTS V4.0 Sobre AllCounts Styles*/
+
+.sobreallcounts-body{
+    background-image: url(./images/5.png);
+    color: white;
+    padding: 30px;
+}
+/*Sobre AllCounts Header*/
+.sobreallcounts-header{
+    border-radius: 10px;
+    background-color: #0f0f0f33;
+    margin: 30px;
+    color: white;
+
+}
+
+/*Sobre AllCounts Header*/
+.allcounts-title{
+    padding: 30px;
+}
+
+.preguntas-card{
+    padding: 15px;
+}
+
+.preguntas-frecuentes{
+    display: block;
+    border: white solid 3px;
+    border-radius: 10px;
+    display: block;
+    padding: 30px;
+}
+
+.preguntas-principales{
+    display: block;
+    border: white solid 3px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.dropdown-button{
+    background-color: #0f0f0f33;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.preguntas-accordion{
+    padding: 30px;
+}
+
+
+/*Sobre AllCounts Footer*/
+
+.sobreallcounts-footer{
     border-radius: 10px;
     background-color: #0f0f0f33;
     margin: 30px;
