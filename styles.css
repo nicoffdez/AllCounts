@@ -21,11 +21,6 @@
 
 /*BODY CLASSES*/
 
-.organizaciones-body{
-    background-image: url(./images/3.png);
-    color: white;
-}
-
 .voluntariado-body{
     background-image: url(./images/4.png);
     color: white;
@@ -107,13 +102,11 @@ h5{
     text-decoration: none;
     color: white;
     padding: 10px;
-
-
 }
 
 .nav-subtext{
     font-family: "Questrial", sans-serif;
-    color: gray;
+    color: white;
     font: x-small;
 }
 .copyright{
@@ -121,6 +114,19 @@ h5{
     color: lightgray;
     font-size: small;
     text-align: center;
+}
+.ul-no-decoration{
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+.padding{
+    padding: 30px;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------*/
@@ -376,7 +382,7 @@ h5{
 /*ALLCOUNTS V4.0 ORGANIZACIONES CLASSES*/
 
 .organizaciones-body-grid{
-    background-image: url(./images/3.png);
+    background-image: url(./images/2.png);
     color: white;
     display: grid;
     grid-template-columns: 1fr;
@@ -396,6 +402,7 @@ h5{
     border-radius: 10px;
     background-color: #0f0f0f33;
     margin: 30px;
+    color: white;
 }
 
 /*Organizaciones Main*/
@@ -413,6 +420,10 @@ h5{
 
 .organizaciones-descrip{  
     padding: 30px;
+}
+
+.ong-card{
+    padding: 15px;
 }
 
 .card-p{
@@ -439,6 +450,76 @@ h5{
 
 .organizaciones-footer{
     grid-area: org-footer;
+    border-radius: 10px;
+    background-color: #0f0f0f33;
+    margin: 30px;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*ALLCOUNTS V4.0 VOLUNTARIADO.HTML STYLES*/
+
+
+.voluntariado-body{
+    background-image: url(./images/4.png);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "vol-header"
+    'vol-main'
+    "vol-footer";
+    row-gap: 20px;
+    margin: 20px;
+}
+
+/*Voluntariado Header*/
+
+.voluntariado-header{
+    grid-area: vol-header;
+    border-radius: 10px;
+    background-color: #0f0f0f33;
+    margin: 30px;
+
+}
+
+
+/*Voluntariado Main*/
+.voluntariado-main{
+    grid-area: vol-main;
+    padding: 30px;
+}
+.vol-title{
+    padding: 30px;
+}
+.vol-tipos{
+    padding: 30px;
+}
+.vol-trabajo{
+    padding: 30px;
+}
+
+.cruz-roja-card{
+    padding: 30px;
+    background-image: url(./images/cruzrojafondo.png);
+    border: white solid 3px;
+    border-radius: 10px;
+}
+
+.techo-card{
+    padding: 30px;
+    background-image: url(./images/techofondo.png);
+    border: white solid 3px;
+    border-radius: 10px;
+}
+
+
+/*Voluntariado Footer*/
+.voluntariado-footer{
+    grid-area: vol-footer;
     border-radius: 10px;
     background-color: #0f0f0f33;
     margin: 30px;
